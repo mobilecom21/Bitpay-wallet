@@ -1,0 +1,51 @@
+{
+  "coinbase": {
+    "production": {
+      "host": "https://coinbase.com",
+      "api": "https://api.coinbase.com",
+      "client_id": "60b0990f1242e82ea9f494e4d87ca7b6c98b9356edb3414ac8d64a6dc822f5e6",
+      "client_secret": "17122439a28b815f83445bf20237f822dd7394bf2553e073ea09aed614820af2"
+    },
+    "sandbox": {
+      "host": "https://sandbox.coinbase.com",
+      "api": "https://api.sandbox.coinbase.com",
+      "client_id": "",
+      "client_secret": ""
+    },
+    "redirect_uri": {
+      "mobile": "bitpay://coinbase",
+      "desktop": "urn:ietf:wg:oauth:2.0:oob"
+    }
+  },
+  "glidera": {
+    "production": {
+      "host": "https://glidera.io",
+      "mobile": {
+        "redirect_uri": "bitpay://glidera",
+        "client_id": "9942c98b261ca06c96650c72a667985a",
+        "client_secret": "04285151887714f422c0d409a8fb1f14"
+      },
+      "desktop": {
+        "redirect_uri": "urn:ietf:wg:oauth:2.0:oob",
+        "client_id": "2072ed120749b8ac9762cfebcece14d0",
+        "client_secret": "dd89cf9c934167a74d56bc2d0bcd8401"
+      }
+    },
+    "sandbox": {
+      "host": "https://sandbox.glidera.io",
+      "mobile": {
+        "redirect_uri": "bitpay://glidera",
+        "client_id": "d225e33b727e6a10f1a671a2fc60abea",
+        "client_secret": "85198b505d46f52c6ef2856da537f2cc"
+      },
+      "desktop": {
+        "redirect_uri": "urn:ietf:wg:oauth:2.0:oob",
+        "client_id": "4ac7209d61a76eb2f06767f854ba371e",
+        "client_secret": "89785496b36587755b68f983ddda37ab"
+      }
+    }
+  },
+  "shapeshift": {
+    "api_key":"9c45b518cfec57b278900f3f4c4960b8317ccd0de0315dddda55593f63b2d961b9120f2bbd989bf9f2045aa8c081181face0e3564648a79c941fd69c3dee8741"
+  }
+}
